@@ -318,7 +318,7 @@
         var f = url.substring(fi+2,);
         document.getElementById('class').innerHTML = c;
         document.getElementById('year').innerHTML = 'YEAR '+y;
-        lnk = 'https://aquibe.github.io/sias-timetable/'+f+'.json';
+        lnk = 'https://aquibe.github.io/sias-timetable/'+f+y+'.json';
         let ttReq = new Request(lnk);
         fetch(ttReq)
             .then(function(resp){
